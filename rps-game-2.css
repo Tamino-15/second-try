@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c7c5b8;
+    color: #1979e7;
+    font-size: 38px; 
+    font-family: 'Roboto Mono', monospace;
+}
+.title{
+    height: 10vh;
+    margin-top: 5vh;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.scoretitle{
+    height: 6vh;
+}
+
+.scores{
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.playerscore{
+    margin-right: 15vh;
+}
+
+.result{
+    height: 8vh;
+}
+
+.table{
+    height: 8vh;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+td{
+    width: 25vh;
+    height: 7vh;
+    text-align: center;
+    border-style: solid;
+    color: #c7c5b8;
+    border-color: #ff6745;
+    background-color: #ff6745;
+    border-radius: 7.5px;
+}
+
+td:hover{
+        background-color: #fd9735;
+        cursor: grab;
+        border-color: #fd9735;
+}
+
+.numberofrounds{
+    height: 8vh;
+}
+.reset{
+    margin-top: 7vh;
+}
+
