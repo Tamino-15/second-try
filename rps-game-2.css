@@ -7,60 +7,93 @@ body{
     color: #1979e7;
     font-size: 38px; 
     font-family: 'Roboto Mono', monospace;
+    
 }
-.title{
+#title{
     height: 10vh;
     margin-top: 5vh;
     font-size: 40px;
     text-decoration: underline;
+    display: flex;
 }
 
-.scoretitle{
+#scoretitle{
     height: 6vh;
+    display: flex;
+    text-decoration: underline;
 }
 
-.scores{
+#scores{
     height: 8vh;
     display: flex;
     flex-direction: row;
     
 }
 
-.playerscore{
-    margin-right: 15vh;
+#playerscore{
+    margin-right: 7.5vh;
+    display: flex;
 }
 
-.result{
+#computerscore{
+    display: flex;
+    margin-left: 7.5vh;
+}
+
+#result{
     height: 8vh;
+    display: flex;
+    color: #2a961c;
 }
 
-.table{
+#options{
     height: 8vh;
     margin-top: 7vh;
     margin-bottom: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-td{
+button{
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
     width: 25vh;
-    height: 7vh;
+    height: 10vh;
     text-align: center;
     border-style: solid;
     color: #c7c5b8;
     border-color: #ff6745;
     background-color: #ff6745;
     border-radius: 7.5px;
+    font-size: 40px;
+    
 }
 
-td:hover{
+button:hover{
         background-color: #fd9735;
         cursor: grab;
         border-color: #fd9735;
 }
 
-.numberofrounds{
+#numberofrounds{
     height: 8vh;
+    display: flex;
 }
-.reset{
+#reset{
     margin-top: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #6f8a5d;
+    background-color: #6f8a5d;
+    border-style: solid;
+
+}
+
+#reset:hover{
+    background-color:  #8cac75;
+    cursor: grab;
+    border-color: #8cac75;
 }
 

@@ -13,40 +13,36 @@
 
 <body>
 
-    <div class="title">
+    <div id="title">
         Let's play Rock, Paper, Scissors!
     </div>
 
-    <div class="scoretitle">
+    <div id="scoretitle">
         Score
     </div>
 
-    <div class="scores">
-        <div class="playerscore">
-            Player:
+    <div id="scores">
+        <div id="playerscore">
+            Player: 0
         </div>
-        <div class="computerscore">
-            Computer:
+        <div id="computerscore">
+            Computer: 0
         </div>
     </div>
 
-    <div class="result">
-        Result of the round
+    <div id="result">
+        Result of the round is...
     </div>
 
-    <div class="table">
-        <table>
-            <tr id="options" >
-                <td  onclick="playerSelection('Rock')">Rock</td>
-                <td  onclick="playerSelection('Paper')">Paper</td>
-                <td  onclick="playerSelection('Scissors')">Scissors</td>
-            </tr>
-        </table>
+    <div id="options">
+                <button id="rock" onclick="rockSelection()">Rock</button>
+                <button id="paper" onclick="paperSelection()">Paper</button>
+                <button id="scissors" onclick="scissorsSelection()">Scissors</button>
     </div>
 
-    <div class="numberofrounds">Rounds played:</div>
+    <div id="numberofrounds">Rounds played: 0</div>
 
-    <div class="reset">Reset</div>
+    <button id="reset" onclick="resetButton()">Reset</button>
 
 </body>
 </html>
