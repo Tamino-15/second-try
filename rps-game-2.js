@@ -84,4 +84,7 @@ function resetButton() {
     let container2 = document.getElementById('numberofrounds').innerHTML = 'Rounds played: 0';
     let container3 = document.getElementById('computerscore').innerHTML = 'Computer: 0';
     let container4 = document.getElementById('playerscore').innerHTML = "Player: 0";
+    playerscore=0;
+    computerscore=0;
+    playedrounds=0;
 }

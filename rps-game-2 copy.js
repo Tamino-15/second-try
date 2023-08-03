@@ -29,6 +29,22 @@ let container3 = document.getElementById('computerscore').innerHTML;
 
 let container4 = document.getElementById('playerscore').innerHTML;
 
+function resetButton(){
+
+    container = 'Result of the round is...';
+
+    container2 = 'Rounds played: 0';
+
+    container3 = 'Computer: 0';
+
+    container4 = "Player: 0";
+
+    playerscore=0;
+
+    computerscore=0;
+
+    playedrounds=0;
+}   
 
 function paperSelection(selection){
 
@@ -138,20 +154,5 @@ function rockSelection(selection){
 
 }
 
-function resetButton(){
 
-    container = 'Result of the round is...';
-
-    container2 = 'Rounds played: 0';
-
-    container3 = 'Computer: 0';
-
-    container4 = "Player: 0";
-
-    playerscore=0;
-
-    computerscore=0;
-
-    playedrounds=0;
-}   
 
