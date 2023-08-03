@@ -148,6 +148,10 @@ function resetButton(){
 
     container4 = "Player: 0";
 
+    playerscore=0;
 
+    computerscore=0;
+
+    playedrounds=0;
 }   
 
